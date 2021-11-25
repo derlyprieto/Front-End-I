@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descuentos {
+    background-color: #1CD1B0;
+    height: 23px;
+    padding: 10px;
+}
+
+.heroes {
+    background-color: #00669F;
+    height: 101px;
+}
+h1 {
+    padding: 28px ;
+}
+article {
+
+    display: inline-block;
+    width: 300px;
+    height: 345px;
+    margin: 154px 30px 151px;
+    position: relative;
+}
+.seccion {
+    margin-top: 139px;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+.content {
+    background-color: #F3F3F3;
+    padding: 74px 17px 37px 16px;
+    text-align: center;
+
+}
+.profile {
+    position: absolute;
+    top: 122px;
+    left: 90px;
+    border-radius: 50%;
+}
+.upper {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.capitalize {
+    text-transform: capitalize;
+    font-size: 30px;
+}
+button {
+    background-color: #00669F;
+    color: #F3F3F3;
+    height: 48.52px;
+    width: 128.78px;
+    margin-top: 37px;
+}
+footer{
+    background-color: #00669F;
+    margin-top: 151px;
+    padding: 16px;
+    color: #FFF9F9;
+}
+p {
+    margin-top: 10px;
+}
+.corazon {
+    color: #CC2424;
+    font-size: 30px;
+    position: absolute;
+    top: 15.88px;
+    left: 15px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.menu {
+    background-color: #001D2D;
+    padding: 11px 20px;
+    text-align: right;
+}
+.menu ul a {
+    color: white;
+    text-decoration: none;
+}
+.menu ul a:visited{
+color: white;
+}
+
+/* Pagina contacto */
+
+h2 {
+    color: black;
+    font-size: 72px;
+    text-transform: capitalize;
+    width: 628px;
+    margin-top: 126px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 620px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 620px;
+    height: 251px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    width: 628px;
+}
+ 
+.boton-gris {
+    background-color: #888888;
+    height: 53.79px;
+    border-radius: 23.01px;
+    border-width: 0px;
+    font-size: 24px;
+}
+
+.boton-verde {
+    background-color: #1CD1B0;
+    height: 53.79px;
+    border-radius: 23.01px;
+    color: black;
+    border-width: 0px;
+    font-size: 24px;
+}
+
+.boton-300 {
+    width: 300px;
+}
+
+/* Pagina Registro */
+
+select {
+    width: 628px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+/* Pagina Login */
+
+.boton-login {
+    width: 614.25px;
+}
